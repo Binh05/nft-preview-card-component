@@ -47,9 +47,12 @@ body {
     font-size: 1.4rem;
 }
 
+.descript {
+    font-size: var(--p-size);
+}
+
 .info p {
     color: var(--Blue-500);
-    font-size: var(--p-size);
 }
 
 .price, .gem, .time {
@@ -96,10 +99,6 @@ hr {
 .info h1:hover, .authur p:hover {
     cursor: pointer;
     color: var(--Cyan-400);
-}
-
-.time img {
-    width: 1.45rem;
 }
 
 .product {
